@@ -1,0 +1,46 @@
+*
+{
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: right top;
+    
+    
+}
+a{
+display: inline-block;}
+.first{
+ 
+    width:200px;
+    height:300px;
+    padding:50px;
+    margin:10px;
+    display: inline;
+}
+
+#h
+{
+    color:red;
+}
+/* DRY - Don't Repeat yourself  */
+
+.first>.second{
+    color:green;
+}
+input[type="text"]{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    text-decoration:underline double;
+    text-transform: capitalize;
+}
+.fp
+{
+    font-size: 18px;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+}
